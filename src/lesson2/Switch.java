@@ -1,9 +1,11 @@
+package lesson2;
+
 import java.util.Scanner;
 
 public class Switch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input your age");
+        System.out.println("lesson2.Input your age");
         int age = scanner.nextInt();
         switch (age){
             case 0:
