@@ -1,3 +1,5 @@
+package lesson1;
+
 public class WhileLoops {
     public static void main(String[] args) {
         int value = 0;

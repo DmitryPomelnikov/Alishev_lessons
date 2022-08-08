@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Break_Continue {
     public static void main(String[] args) {
         System.out.println("Пример break");
