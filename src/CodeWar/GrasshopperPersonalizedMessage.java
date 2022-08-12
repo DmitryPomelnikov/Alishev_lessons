@@ -14,6 +14,6 @@ public class GrasshopperPersonalizedMessage {
 }
 class Grasshopper {
     static String greet(String name, String owner) {
-        return name.equals(owner)?"Hello boss":"Hello guest";
+        return name.equals(owner) ? "Hello boss" : "Hello guest";
     }
 }

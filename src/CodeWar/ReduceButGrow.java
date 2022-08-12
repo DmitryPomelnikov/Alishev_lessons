@@ -28,9 +28,10 @@ class ReduceGrow {
         }
         return sum;
     }
+
     //чужое решение
-    public static int grow2(int[] x){
-        return Arrays.stream(x).reduce(1 ,(a, b) -> a * b);
+    public static int grow2(int[] x) {
+        return Arrays.stream(x).reduce(1, (a, b) -> a * b);
     }
 
 }

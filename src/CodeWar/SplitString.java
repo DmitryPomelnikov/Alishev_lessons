@@ -22,6 +22,7 @@ class AbbreviateTwoWords {
         String[] words = name.split(" ");
         return words[0].substring(0, 1).toUpperCase() + "." + words[1].substring(0, 1).toUpperCase();
     }
+
     //чужое решение
     public static String abbrevName2(String name) {
         String[] names = name.split(" ");

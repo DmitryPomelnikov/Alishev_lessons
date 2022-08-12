@@ -43,6 +43,7 @@ class MinMax {
             return max;
         } else return max;
     }
+
     //лучшее решение
     public int min2(int[] list) {
         return Arrays.stream(list).min().getAsInt();
