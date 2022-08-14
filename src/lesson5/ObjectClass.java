@@ -17,7 +17,7 @@ class HumanCreated {
         this.age = age;
     }
 
-    //если вызвать объект, то возвращается хешкод, поэтому надо переопределить методв toString класа Object
+    //если вызвать объект, то возвращается хешкод для созданного объекта, поэтому надо переопределить метод в toString клаcса Object
     public String toString() {
         return name + ", " + age;
     }
