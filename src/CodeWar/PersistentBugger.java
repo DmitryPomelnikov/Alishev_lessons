@@ -12,7 +12,7 @@ public class PersistentBugger {
         System.out.println(Persist.persistence(39));
         System.out.println(Persist.persistence(4));
         System.out.println(Persist.persistence(25));
-        System.out.println(Persist.persistence(999));
+        System.out.println(Persist.persistence2(999));
     }
 }
 
@@ -52,13 +52,10 @@ class Persist {
 
     public static int persistence2(long n) {
         long m = 1, r = n;
-
         if (r / 10 == 0)
             return 0;
-
         for (r = n; r != 0; r /= 10)
             m *= r % 10;
-
         return persistence2(m) + 1;
     }
 
